@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <script src="myscript.js"></script>
+    <style>
+      form {
+        width: 20%;
+      }
+
+      label,
+      input {
+        display: block;
+        width: 100%;
+        margin: 8px;
+        padding: 5px;
+        border-radius: 4px;
+      }
+      body {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      button {
+        margin: 8px;
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: #4caf50;
+        cursor: pointer;
+        color: white;
+        display: block;
+        width: 105%;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label>Marks:</label>
+      <input
+        type="text"
+        id="marks"
+        placeholder="Enter your marks out of 50.."
+      />
+      <button type="button" onclick="checkGrade()">Submit</button>
+    </form>
+  </body>
+</html>
